@@ -1,0 +1,25 @@
+dependencies:
+  - name: spring-config-server
+    repository: https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
+    version: 1.0.0
+    condition: spring-config-server.enabled, global.spring-config-server.enabled
+  - name: spring-eureka-server
+    repository: https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
+    version: 1.0.0
+    condition: spring-eureka-server.enabled, global.spring-eureka-server.enabled
+  - name: spring-hystrix-dashboard
+    repository: https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
+    version: 1.0.0
+    condition: spring-hystrix-dashboard.enabled, global.spring-hystrix-dashboard.enabled
+  - name: spring-turbine-server
+    repository: https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
+    version: 1.0.0
+    condition: spring-turbine-server.enabled, global.spring-turbine-server.enabled
+  - name: spring-zuul-proxy
+    repository: https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
+    version: 1.0.0
+    condition: spring-zuul-proxy.enabled, global.spring-zuul-proxy.enabled
+  - name: zipkin-server
+    repository: https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
+    version: 1.0.0
+    condition: zipkin-server.enabled, global.zipkin-server.enabled
