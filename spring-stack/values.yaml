@@ -10,6 +10,8 @@ spring-config-server:
           git:
             uri:
             searchPaths:
+  encryption:
+    key: 8YiY6ypoTgoLrdyPa1dgijUNfeyWcGTEjESSUuF6o9gKA1ZdgPJj5BUpOQrf7qkK
 
 spring-eureka-server:
   enabled: true
