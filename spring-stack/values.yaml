@@ -3,6 +3,13 @@
 # Declare variables to be passed into your templates
 spring-config-server:
   enabled: true
+  spring:
+    cloud:
+      config:
+        server:
+          git:
+            uri:
+            searchPaths:
 
 spring-eureka-server:
   enabled: true

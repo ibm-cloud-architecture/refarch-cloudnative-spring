@@ -39,6 +39,17 @@ gradle-app.setting
 # Cache of project
 .gradletasknamecache
 
+# swap files
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+
+# auto-generated tag files
+tags
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
 
