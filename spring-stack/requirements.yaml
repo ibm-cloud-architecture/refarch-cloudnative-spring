@@ -1,28 +1,28 @@
 dependencies:
   - name: spring-config-server
-    repository: http://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
+    repository: https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
     version: 1.0.0
   - name: spring-eureka-server
-    repository: http://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
+    repository: https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
     version: 1.0.0
     condition: spring-eureka-server.enabled, global.spring-eureka-server.enabled
     import-values:
     - child: service
       parent: global.eureka.service
   - name: spring-hystrix-dashboard
-    repository: http://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
+    repository: https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
     version: 1.0.0
     condition: spring-hystrix-dashboard.enabled, global.spring-hystrix-dashboard.enabled
   - name: spring-turbine-server
-    repository: http://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
+    repository: https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
     version: 1.0.0
     condition: spring-turbine-server.enabled, global.spring-turbine-server.enabled
   - name: spring-zuul-proxy
-    repository: http://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
+    repository: https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
     version: 1.0.0
     condition: spring-zuul-proxy.enabled, global.spring-zuul-proxy.enabled
   - name: zipkin-server
-    repository: http://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
+    repository: https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
     version: 1.0.0
     condition: zipkin-server.enabled, global.zipkin-server.enabled
     import-values:
