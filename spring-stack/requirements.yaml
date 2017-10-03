@@ -2,11 +2,13 @@ dependencies:
   - name: spring-config-server
     repository: https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
     version: 1.0.0
-    condition: spring-config-server.enabled, global.spring-config-server.enabled
   - name: spring-eureka-server
     repository: https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
     version: 1.0.0
     condition: spring-eureka-server.enabled, global.spring-eureka-server.enabled
+    import-values:
+    - child: service
+      parent: global.eureka.service
   - name: spring-hystrix-dashboard
     repository: https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
     version: 1.0.0
@@ -23,3 +25,6 @@ dependencies:
     repository: https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts
     version: 1.0.0
     condition: zipkin-server.enabled, global.zipkin-server.enabled
+    import-values:
+    - child: service
+      parent: global.zipkin.service
