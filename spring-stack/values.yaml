@@ -1,6 +1,29 @@
 # Default values for spring-stack.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates
+
+global:
+  rabbitmq:
+    url:
+    host:
+    port: 5672
+    username:
+    password:
+    virtualHost:
+    sslEnabled: false
+
+  eureka:
+    service:
+      name:
+      port:
+
+  zipkin:
+    service:
+      name:
+      port:
+
+  useConfigServerBootstrap: true
+ 
 spring-config-server:
   enabled: true
   spring:

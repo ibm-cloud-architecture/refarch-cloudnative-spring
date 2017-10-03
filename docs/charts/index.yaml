@@ -2,65 +2,65 @@ apiVersion: v1
 entries:
   spring-config-server:
   - apiVersion: v1
-    created: 2017-09-28T14:27:41.922289035-04:00
+    created: 2017-10-03T10:02:49.440768-04:00
     description: Spring Config Server
-    digest: 8c1de393c32ee2dfa8af3dac85d46b058fc4a837e0bb3a7d42752d8d0d288c92
+    digest: 0b011aaba6d7c242957ecd81d0723641ed55077d979c7acc8c3f37c4608a70d2
     name: spring-config-server
     urls:
-    - https://raw.githubusercontent.com/jkwong888/refarch-cloudnative-spring/master/docs/charts/spring-config-server-1.0.0.tgz
+    - http://192.168.0.134:8879/spring-config-server-1.0.0.tgz
     version: 1.0.0
   spring-eureka-server:
   - apiVersion: v1
-    created: 2017-09-28T14:27:41.922460464-04:00
+    created: 2017-10-03T10:02:49.440949-04:00
     description: Spring Eureka Server
-    digest: c519ef983104804e4faedffb37cd7b20a5299e25fc7d753449b655475ba18151
+    digest: bc0efd2b46f151cafdd510837e505656cc5c7808ecd5d63d250236516cd3b678
     name: spring-eureka-server
     urls:
-    - https://raw.githubusercontent.com/jkwong888/refarch-cloudnative-spring/master/docs/charts/spring-eureka-server-1.0.0.tgz
+    - http://192.168.0.134:8879/spring-eureka-server-1.0.0.tgz
     version: 1.0.0
   spring-hystrix-dashboard:
   - apiVersion: v1
-    created: 2017-09-28T14:27:41.922616128-04:00
+    created: 2017-10-03T10:02:49.441119-04:00
     description: Spring Hystrix Dashboard
-    digest: b6f44c4c95b8769c1daf3c0c797574b648863f15a1fb699ff690d5b121e83f42
+    digest: d019ddb49485bce0e867946e792639bfb8da5c95c89e863e1187c4984ce40357
     name: spring-hystrix-dashboard
     urls:
-    - https://raw.githubusercontent.com/jkwong888/refarch-cloudnative-spring/master/docs/charts/spring-hystrix-dashboard-1.0.0.tgz
+    - http://192.168.0.134:8879/spring-hystrix-dashboard-1.0.0.tgz
     version: 1.0.0
   spring-stack:
   - apiVersion: v1
-    created: 2017-09-28T14:27:41.92331013-04:00
+    created: 2017-10-03T10:02:49.441899-04:00
     description: Spring Cloud stack
-    digest: 9938dd6b3cff46e047da3c1712effac1366bf38423cdfbd6bd4f5e658bac83c8
+    digest: d4d4ac7965927be3fc2fcaef59fe52627f136856ceb27736884c730493ca52d8
     name: spring-stack
     urls:
-    - https://raw.githubusercontent.com/jkwong888/refarch-cloudnative-spring/master/docs/charts/spring-stack-0.1.0.tgz
+    - http://192.168.0.134:8879/spring-stack-0.1.0.tgz
     version: 0.1.0
   spring-turbine-server:
   - apiVersion: v1
-    created: 2017-09-28T14:27:41.923465418-04:00
+    created: 2017-10-03T10:02:49.442101-04:00
     description: Spring Turbine Server
-    digest: 3698933e111a6a3f6dba32ef9d4378ad552530e3a8905d4cb1bea3af18fcdb62
+    digest: fb80e492eb2c9d49f81df7d0930acb1085a2c11c3c27b98503d1a6411fa38eb9
     name: spring-turbine-server
     urls:
-    - https://raw.githubusercontent.com/jkwong888/refarch-cloudnative-spring/master/docs/charts/spring-turbine-server-1.0.0.tgz
+    - http://192.168.0.134:8879/spring-turbine-server-1.0.0.tgz
     version: 1.0.0
   spring-zuul-proxy:
   - apiVersion: v1
-    created: 2017-09-28T14:27:41.923651624-04:00
-    description: A Helm chart for Kubernetes
-    digest: b76dcbde4e0539b6f7488f985643aa3279df0397c4796eac9437ddb216e4c05e
+    created: 2017-10-03T10:02:49.442318-04:00
+    description: Spring Zuul Proxy
+    digest: 095f31218645c4bec4c9ae4f53158d2385692a890ac807499d9c4bbd1a916f45
     name: spring-zuul-proxy
     urls:
-    - https://raw.githubusercontent.com/jkwong888/refarch-cloudnative-spring/master/docs/charts/spring-zuul-proxy-1.0.0.tgz
+    - http://192.168.0.134:8879/spring-zuul-proxy-1.0.0.tgz
     version: 1.0.0
   zipkin-server:
   - apiVersion: v1
-    created: 2017-09-28T14:27:41.923806527-04:00
+    created: 2017-10-03T10:02:49.442525-04:00
     description: Zipkin Server
-    digest: dfc30ff39b074ffa5cb71a44e56532f2286662cc590e5ec22d1a25f76d2d5c00
+    digest: 1628f20bc16c2052f1cbec01092d8477c7d81bc3a8546069b358249b7b1767be
     name: zipkin-server
     urls:
-    - https://raw.githubusercontent.com/jkwong888/refarch-cloudnative-spring/master/docs/charts/zipkin-server-1.0.0.tgz
+    - http://192.168.0.134:8879/zipkin-server-1.0.0.tgz
     version: 1.0.0
-generated: 2017-09-28T14:27:41.921909616-04:00
+generated: 2017-10-03T10:02:49.44037-04:00
