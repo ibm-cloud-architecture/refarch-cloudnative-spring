@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   spring-config-server:
   - apiVersion: v1
-    created: 2017-10-11T11:06:34.352768-05:00
+    created: 2017-10-11T11:09:13.409246-05:00
     description: Spring Config Server
     digest: 0b011aaba6d7c242957ecd81d0723641ed55077d979c7acc8c3f37c4608a70d2
     name: spring-config-server
@@ -11,7 +11,7 @@ entries:
     version: 1.0.0
   spring-eureka-server:
   - apiVersion: v1
-    created: 2017-10-11T11:06:34.353189-05:00
+    created: 2017-10-11T11:09:13.409425-05:00
     description: Spring Eureka Server
     digest: bc0efd2b46f151cafdd510837e505656cc5c7808ecd5d63d250236516cd3b678
     name: spring-eureka-server
@@ -20,7 +20,7 @@ entries:
     version: 1.0.0
   spring-hystrix-dashboard:
   - apiVersion: v1
-    created: 2017-10-11T11:06:34.353542-05:00
+    created: 2017-10-11T11:09:13.409582-05:00
     description: Spring Hystrix Dashboard
     digest: d019ddb49485bce0e867946e792639bfb8da5c95c89e863e1187c4984ce40357
     name: spring-hystrix-dashboard
@@ -29,7 +29,7 @@ entries:
     version: 1.0.0
   spring-stack:
   - apiVersion: v1
-    created: 2017-10-11T11:06:34.354307-05:00
+    created: 2017-10-11T11:09:13.410293-05:00
     description: Spring Cloud stack
     digest: 6dc32cab3dd617f1de5f93e553775aac87a82b3a4f205b64819e3eca937c0a08
     name: spring-stack
@@ -38,7 +38,7 @@ entries:
     version: 0.1.0
   spring-turbine-server:
   - apiVersion: v1
-    created: 2017-10-11T11:06:34.354702-05:00
+    created: 2017-10-11T11:09:13.410795-05:00
     description: Spring Turbine Server
     digest: fb80e492eb2c9d49f81df7d0930acb1085a2c11c3c27b98503d1a6411fa38eb9
     name: spring-turbine-server
@@ -47,7 +47,7 @@ entries:
     version: 1.0.0
   spring-zuul-proxy:
   - apiVersion: v1
-    created: 2017-10-11T11:06:34.355094-05:00
+    created: 2017-10-11T11:09:13.411121-05:00
     description: Spring Zuul Proxy
     digest: 095f31218645c4bec4c9ae4f53158d2385692a890ac807499d9c4bbd1a916f45
     name: spring-zuul-proxy
@@ -56,11 +56,11 @@ entries:
     version: 1.0.0
   zipkin-server:
   - apiVersion: v1
-    created: 2017-10-11T11:06:34.355474-05:00
+    created: 2017-10-11T11:09:13.411366-05:00
     description: Zipkin Server
     digest: 1628f20bc16c2052f1cbec01092d8477c7d81bc3a8546069b358249b7b1767be
     name: zipkin-server
     urls:
     - zipkin-server-1.0.0.tgz
     version: 1.0.0
-generated: 2017-10-11T11:06:34.352129-05:00
+generated: 2017-10-11T11:09:13.408838-05:00
