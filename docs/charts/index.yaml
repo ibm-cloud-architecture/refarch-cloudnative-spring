@@ -2,65 +2,65 @@ apiVersion: v1
 entries:
   spring-config-server:
   - apiVersion: v1
-    created: 2017-10-11T11:09:13.409246-05:00
+    created: 2017-10-11T11:20:49.170185-05:00
     description: Spring Config Server
     digest: 0b011aaba6d7c242957ecd81d0723641ed55077d979c7acc8c3f37c4608a70d2
     name: spring-config-server
     urls:
-    - spring-config-server-1.0.0.tgz
+    - https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts/spring-config-server-1.0.0.tgz
     version: 1.0.0
   spring-eureka-server:
   - apiVersion: v1
-    created: 2017-10-11T11:09:13.409425-05:00
+    created: 2017-10-11T11:20:49.170588-05:00
     description: Spring Eureka Server
     digest: bc0efd2b46f151cafdd510837e505656cc5c7808ecd5d63d250236516cd3b678
     name: spring-eureka-server
     urls:
-    - spring-eureka-server-1.0.0.tgz
+    - https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts/spring-eureka-server-1.0.0.tgz
     version: 1.0.0
   spring-hystrix-dashboard:
   - apiVersion: v1
-    created: 2017-10-11T11:09:13.409582-05:00
+    created: 2017-10-11T11:20:49.170949-05:00
     description: Spring Hystrix Dashboard
     digest: d019ddb49485bce0e867946e792639bfb8da5c95c89e863e1187c4984ce40357
     name: spring-hystrix-dashboard
     urls:
-    - spring-hystrix-dashboard-1.0.0.tgz
+    - https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts/spring-hystrix-dashboard-1.0.0.tgz
     version: 1.0.0
   spring-stack:
   - apiVersion: v1
-    created: 2017-10-11T11:09:13.410293-05:00
+    created: 2017-10-11T11:20:49.17228-05:00
     description: Spring Cloud stack
     digest: 6dc32cab3dd617f1de5f93e553775aac87a82b3a4f205b64819e3eca937c0a08
     name: spring-stack
     urls:
-    - spring-stack-0.1.0.tgz
+    - https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts/spring-stack-0.1.0.tgz
     version: 0.1.0
   spring-turbine-server:
   - apiVersion: v1
-    created: 2017-10-11T11:09:13.410795-05:00
+    created: 2017-10-11T11:20:49.172671-05:00
     description: Spring Turbine Server
     digest: fb80e492eb2c9d49f81df7d0930acb1085a2c11c3c27b98503d1a6411fa38eb9
     name: spring-turbine-server
     urls:
-    - spring-turbine-server-1.0.0.tgz
+    - https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts/spring-turbine-server-1.0.0.tgz
     version: 1.0.0
   spring-zuul-proxy:
   - apiVersion: v1
-    created: 2017-10-11T11:09:13.411121-05:00
+    created: 2017-10-11T11:20:49.173067-05:00
     description: Spring Zuul Proxy
     digest: 095f31218645c4bec4c9ae4f53158d2385692a890ac807499d9c4bbd1a916f45
     name: spring-zuul-proxy
     urls:
-    - spring-zuul-proxy-1.0.0.tgz
+    - https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts/spring-zuul-proxy-1.0.0.tgz
     version: 1.0.0
   zipkin-server:
   - apiVersion: v1
-    created: 2017-10-11T11:09:13.411366-05:00
+    created: 2017-10-11T11:20:49.173612-05:00
     description: Zipkin Server
     digest: 1628f20bc16c2052f1cbec01092d8477c7d81bc3a8546069b358249b7b1767be
     name: zipkin-server
     urls:
-    - zipkin-server-1.0.0.tgz
+    - https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts/zipkin-server-1.0.0.tgz
     version: 1.0.0
-generated: 2017-10-11T11:09:13.408838-05:00
+generated: 2017-10-11T11:20:49.169369-05:00
