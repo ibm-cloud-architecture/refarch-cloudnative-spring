@@ -38,15 +38,25 @@ spring-config-server:
 
 spring-eureka-server:
   enabled: true
+  service:
+    type: ClusterIP
 
 spring-hystrix-dashboard:
   enabled: true
+  service:
+    type: ClusterIP
 
 spring-turbine-server:
   enabled: true
+  service:
+    type: ClusterIP
 
 spring-zuul-proxy:
   enabled: true
+  service:
+    type: ClusterIP
 
 zipkin-server:
   enabled: true
+  service:
+    type: ClusterIP
