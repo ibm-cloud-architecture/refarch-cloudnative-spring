@@ -25,12 +25,12 @@ Coming Soon...
 This project organized itself like a microservice project, as such each component in the architecture has its own Git Repository and tutorial listed below.  
 
  - [refarch-cloudnative-spring](https://github.com/ibm-cloud-architecture/refarch-cloudnative-spring/tree/master) - The root repository (Current repository)
- - [refarch-cloudnative-netflix-eureka](https://github.com/ibm-cloud-architecture/refarch-cloudnative-netflix-eureka/tree/master) - This repository contains a basic Netflix Eureka application.
- - [refarch-cloudnative-netflix-zuul](https://github.com/ibm-cloud-architecture/refarch-cloudnative-netflix-zuul/tree/master) - This repository contains a basic Netflix Zuul proxy application.
- - [refarch-cloudnative-spring-config](https://github.com/ibm-cloud-architecture/refarch-cloudnative-spring-config/tree/master) - This repository contains a packaged Spring Config config server for use in a Netflix OSS-based microservices architecture.
- - [refarch-cloudnative-netflix-hystrix](https://github.com/ibm-cloud-architecture/refarch-cloudnative-netflix-hystrix/tree/master) - This repository contains a basic Netflix Hystrix Dashboard application, configured to use messaging for inter-component communication.
- - [refarch-cloudnative-netflix-turbine](https://github.com/ibm-cloud-architecture/refarch-cloudnative-netflix-turbine/tree/master) - This repository contains a basic Netflix Turbine Server application, configured to use messaging for inter-component communication.
- - [refarch-cloudnative-zipkin](https://github.com/ibm-cloud-architecture/refarch-cloudnative-zipkin/tree/master) - This repository contains Zipkin, a distributed tracing system.
+ - refarch-cloudnative-netflix-eureka - This repository contains a basic Netflix Eureka application.
+ - refarch-cloudnative-netflix-zuul - This repository contains a basic Netflix Zuul proxy application.
+ - refarch-cloudnative-spring-config - This repository contains a packaged Spring Config config server for use in a Netflix OSS-based microservices architecture.
+ - refarch-cloudnative-netflix-hystrix - This repository contains a basic Netflix Hystrix Dashboard application, configured to use messaging for inter-component communication.
+ - refarch-cloudnative-netflix-turbine - This repository contains a basic Netflix Turbine Server application, configured to use messaging for inter-component communication.
+ - refarch-cloudnative-zipkin - This repository contains Zipkin, a distributed tracing system.
 
 ## Deploy the Sprint Stack
 
