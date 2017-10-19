@@ -37,26 +37,31 @@ spring-config-server:
     key: 8YiY6ypoTgoLrdyPa1dgijUNfeyWcGTEjESSUuF6o9gKA1ZdgPJj5BUpOQrf7qkK
 
 spring-eureka-server:
+  replicaCount: 1
   enabled: true
   service:
     type: ClusterIP
 
 spring-hystrix-dashboard:
+  replicaCount: 1
   enabled: true
   service:
     type: ClusterIP
 
 spring-turbine-server:
+  replicaCount: 1
   enabled: true
   service:
     type: ClusterIP
 
 spring-zuul-proxy:
+  replicaCount: 1
   enabled: true
   service:
     type: ClusterIP
 
 zipkin-server:
+  replicaCount: 1
   enabled: true
   service:
     type: ClusterIP
