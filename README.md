@@ -116,13 +116,13 @@ This initializes the `helm` client as well as the server side component called `
 #### b. Add the `helm` package repository containing the reference application:
 
 ```
-$ helm repo add ibmcase https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts/
+$ helm repo add ibmcase-spring https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts/
 ```
    
 #### c. Install the reference application:
 
 ```
-$ helm install --name spring-stack ibmcase/spring-stack \
+$ helm install --name spring-stack ibmcase-spring/spring-stack \
 --set global.rabbitmq.host=rabbitmq \
 --set global.rabbitmq.username=guest \
 --set global.rabbitmq.password=guest \
@@ -239,11 +239,11 @@ $ kubectl get secrets rabbitmq-rabbitmq -o=jsonpath='{.data.rabbitmq-password}' 
 
   You will need this password when installing `spring-stack` chart.
 
-#### 2. Add ibmcase Helm Repository
+#### 2. Add ibmcase-spring Helm Repository
 1. Click on the three bars in the top left corner, and go to *Admin*.
 2. Click on the `Repositories` tab
 3. Click on `Add repository`.  Use the following values:
-    - **Repository Name:** *ibmcase*
+    - **Repository Name:** *ibmcase-spring*
     - **URL:** *https://raw.githubusercontent.com/ibm-cloud-architecture/refarch-cloudnative-spring/master/docs/charts/*
    
    Click `Add` to add the repository.
