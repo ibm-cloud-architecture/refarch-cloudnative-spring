@@ -42,7 +42,7 @@ To deploy the Sprint Stack, you require the following tools:
 
 The following clusters have been tested with this sample application:
 - [minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/) - Create a single node virtual cluster on your workstation
-- [IBM Bluemix Container Service](https://www.ibm.com/cloud-computing/bluemix/containers) - Create a Kubernetes cluster in IBM Cloud.  The application runs in the Lite cluster, which is free of charge.  Follow the instructions [here](https://console.bluemix.net/docs/containers/container_index.html).
+- [IBM Cloud Container Service](https://www.ibm.com/cloud-computing/bluemix/containers) - Create a Kubernetes cluster in IBM Cloud.  The application runs in the Lite cluster, which is free of charge.  Follow the instructions [here](https://console.bluemix.net/docs/containers/container_index.html).
 - [IBM Cloud private](https://www.ibm.com/cloud-computing/products/ibm-cloud-private/) - Create a Kubernetes cluster in an on-premise datacenter.  The community edition (IBM Cloud private-ce) is free of charge.  Follow the instructions [here](https://www.ibm.com/support/knowledgecenter/en/SSBS6K_1.2.0/installing/install_containers_CE.html) to install IBM Cloud private-ce.
 
 ## Deploy the Spring Stack
@@ -172,8 +172,8 @@ If you've installed on minikube you can find the IP with the following.
 $ minikube ip
 ```
 
-##### IBM Bluemix Container Service
-If you've installed on a Kubernetes cluster from `IBM Bluemix Container Service`, you can find the IP with the following
+##### IBM Cloud Container Service
+If you've installed on a Kubernetes cluster from `IBM Cloud Container Service`, you can find the IP with the following
 
 ```
 $ bx cs workers ${cluster_name}
